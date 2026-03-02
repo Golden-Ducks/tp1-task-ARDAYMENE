@@ -130,4 +130,4 @@ for  char in test:
 # use a dictionary for contractions if you want to handle "don't", "can't", etc
 
 #It feels like you wrote the simple parts and asked an AI to do the rest
-#No need for AI when the task is this brain-dead simple. Try to actually code next time
+#No need for AI when the task is this brain-dead simple. Try to actually code next time 
