@@ -105,3 +105,29 @@ i=1
 for  char in test:
     i=i+1
     print(f"D{i}:", normaliser(char))
+
+
+
+
+
+#line 10
+# use string.punctuation bcz it saves you from typing all those marks
+    
+# line 13
+# instead of separate if statements for symbols and punctuation, use one elif
+# or just check if the char is in both lists at once
+    
+# line 30
+# using regex re.sub is good, but make sure you understand the lookbehind (?<!\d)
+# it's a bit advanced if you haven't studied it yet
+    
+# line 47
+# building strings with += inside a loop is discouraged bcz strings are immutable
+# use a list and then .join() for better performance
+    
+# line 56
+# manually replacing "I'm" only works for one case
+# use a dictionary for contractions if you want to handle "don't", "can't", etc
+
+#It feels like you wrote the simple parts and asked an AI to do the rest
+#No need for AI when the task is this brain-dead simple. Try to actually code next time
